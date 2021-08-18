@@ -162,7 +162,7 @@ class App extends React.Component<any, any> {
 
   public connect = async () => {
     // bridge url
-    const bridge = "https://bridge.walletconnect.org";
+    const bridge = "wss://wc-bridge-5qt5i.ondigitalocean.app:443";
 
     // create new connector
     const connector = new WalletConnect({ bridge, qrcodeModal: QRCodeModal });
